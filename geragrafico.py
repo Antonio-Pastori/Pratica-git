@@ -8,6 +8,8 @@ def main():
     leitor = LeitorArquivo('data.txt')
     valores = leitor.getValores()
     plt.plot(valores)
+    plt.ylabel('Valores de entrada')
+    plt.xlabel('Amostragem')
     plt.show()
 
 
